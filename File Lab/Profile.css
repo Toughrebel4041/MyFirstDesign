@@ -1,0 +1,131 @@
+*{
+    font-family: 'Lato', 'Black 900', 'Light 300';
+    justify-content: center;
+}
+.container-fluid{
+    background-color:rgb(16, 0, 105);
+    padding: 5px;
+    top: 0;
+    font-size: large;
+    text-align: center;
+    font-weight: 900;
+    position: sticky;
+    color: rgb(153, 177, 202);
+    align-items: center;
+    border-style: double;
+    border-color: #FBEEC1;
+}
+.container{
+    flex-grow: 1;
+    background-color:rgb(153, 177, 202);
+    align-items: center;
+    border: #FBEEC1;
+    border-radius: 3px;
+    border-style: double;
+}
+.box {
+    flex-grow: 2;
+    width: 320px;
+    padding: 10px;
+    border: 10px solid gray;
+    margin: 0;
+    border-radius: 15px;
+    border-color: cornsilk;
+    border-style: groove;
+    align-items: center;
+}
+body{
+    background-color:rgb(153, 177, 202);
+    color:rgb(0, 0, 0);
+    text-align: justify;
+    height: 100vh;
+}
+p{
+    text-indent: 20px;
+    line-height: 150%;
+}
+p::first-letter{
+    color:rgb(16, 0, 105);
+    font-size:x-large ;
+    font-weight: 600;
+}
+h1{
+    font-size: xx-large;
+    font-weight: 550;
+    color: rgb(153, 177, 202);
+}
+h2{
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-weight: 500;
+}
+.nim{
+    color: rgb(153, 177, 202);
+    font-weight: 500;
+}
+header{
+    background-color:rgb(16, 0, 105);
+    margin-inline-start: auto;
+    margin-inline-end: auto;
+    text-align: center;
+    text-transform: uppercase;
+    border-style:groove;
+    border-color: #FBEEC1;
+    border-width: 5px;
+}
+table{
+    text-align: center;
+    background-color:rgb(153, 177, 202);
+    color: rgb(0, 0, 0);
+    font-size: 100%;
+    border-color: rgb(16, 0, 105);
+    border-style:groove;
+    border-width: 3px;
+    width: 950;
+    grid: 3px;
+    grid-area: auto;
+}
+footer{
+    border-style: double;
+    background-color: rgb(16, 0, 105);
+    color:rgb(153, 177, 202);
+    text-align: center;
+    text-shadow: 1px 1px 1px #000000;
+    margin-top: 20;
+}
+img{
+    margin-bottom: 20px;
+    float:inline-start;
+}
+a:link{
+    color:aliceblue ;
+}
+a:visited{
+    color:rgb(153, 177, 202);
+}
+.ondelondel{
+    float: right;
+    margin-right: 10px;
+    margin-left: 20px;
+}
+nav{
+        background-color:rgb(16, 0, 105);
+        padding: 5px;
+        top: 0;
+        font-size: large;
+        text-align: center;
+        font-weight: 900;
+        position: sticky;
+        color: rgb(153, 177, 202);
+        align-items: center;
+        border-style: double;
+        border-color: #FBEEC1;
+    }
+ul{
+    justify-content: space-evenly;
+    display: flex;
+}
+mark{
+    background-color:rgb(16, 0, 105);
+    color: rgb(153, 177, 202);
+}
